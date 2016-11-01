@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Usage of AJAX</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="app.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.2/moment.min.js"></script>
+	<script src="https://code.highcharts.com/highcharts.js"></script>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+<div class="container-fluid header text-center">
+	<h3>Weather Forecast App</h3>
+</div>
+
+<div class="row">
+	<div class="col-md-6 col-md-offset-3">
+		<h4>Weather by City</h4>
+		<div class="form-group">
+			<input type="text" class="form-control"	id="input1"/>
+		</div>
+		<a href="#" class="btn btn-primary" id="current">Get Current Weather</a>
+		<a href="#" class="btn btn-primary" id="forecast">Get Forecast</a>
+		<h3 id="textInfo"></h3>
+	</div>
+	<div class="col-md-6 col-md-offset-3" id="result">
+		<table class="table table-striped table-hover ">
+		  <thead>
+		    <tr>
+		      <th>Date</th>
+		      <th>Temperature</th>
+		      <th>Humidity</th>
+		      <th>How it is right now</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		  </tbody>
+		</table>
+	</div>
+</div>
+</body>
+</html>
